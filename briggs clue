@@ -1,0 +1,29 @@
+think about it this way:
+
+take a string in, shift the letters, return a new string
+
+shifting the letters:
+
+Alex Overend @weefunker 18:40
+@I3uckwheat ++
+
+odin-bot @odin-bot 18:40
+Woot! @I3uckwheat now has 664 points
+
+Briggs Elsperger @I3uckwheat 18:41
+find where the location of the letter is, then add x to it,
+
+if it exceeds the limit, wrap around to the start
+
+
+Alex Overend @weefunker 18:41
+I do need an array of the alphabet then yes?
+
+Briggs Elsperger @I3uckwheat 18:41
+You could, but you could also use the character codes
+
+
+Number one method to help 
+
+[tu].pack('U*') 
+Turns ascii value into string 
